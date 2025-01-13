@@ -38,14 +38,14 @@ jobs:
         run: |
           # 创建 Hugo 站点配置
           cat > config.toml <<EOL
-          baseURL = 'https://[你的用户名].github.io/Articles/'
+          baseURL = 'https://yxqx-26.github.io/Articles/'
           # 后续如果要自定义域名需要改为baseURL = 'https://example.com/'
           languageCode = 'zh-cn'
           title = 'Articles'
           theme = 'paper'
           
           [params]
-            github = '[你的用户名]'
+            github = 'yxqx-26'
             rss = true
             color = 'linen'
             
